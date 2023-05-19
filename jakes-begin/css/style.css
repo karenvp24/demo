@@ -18,6 +18,7 @@ img {
 
 nav ul {
     list-style-type: none;
+    background-image: url("./media/images/jakes-meals.jpg");
     padding: 0;
     margin: 0;
     background-color: #004369;
@@ -26,8 +27,7 @@ nav ul {
     border-bottom: 10px double #01949A;
     display:flex;
     flex-direction: row;
-
-
+    
 }
 
 nav li {
@@ -97,6 +97,7 @@ section a {
     text-decoration: none;
     /* although the border doesn't show much here, if you only place it on the hover, the button "twitches" with the extra width of the border. Place it here and that "twitch" doesn't happen. */
     border: 1px solid #db1f48;
+    /* here is where you put the background*/
 }
 
 section a:hover {
